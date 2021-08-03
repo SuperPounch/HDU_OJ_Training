@@ -1,0 +1,17 @@
+//2011
+/*
+int m,n;//m个测试例子，每个n都要求前n项和
+double sum;
+while(scanf("%d",&m)!=EOF){
+    for (int k = 0; k < m ; ++k) {//执行m次测试
+        while(scanf("%d",&n)!=EOF){//每次输入n
+            if(n<0||n>=1000)
+                break;
+            for (int i = 1; i <=n ; ++i){
+                (i%2==0)?sum-=(double)1/i:sum+=(double)1/i;
+            }
+            printf("%.2f\n",sum);
+            sum=0;
+        }
+    }
+}*/

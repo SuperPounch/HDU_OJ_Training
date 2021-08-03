@@ -1,0 +1,68 @@
+#include <iostream>
+#include <math.h>
+
+//方法一：子函数
+void oj2012(int x,int y);
+bool issushu(int x);
+int main() {
+    int x,y;
+    while (scanf("%d %d\n",&x,&y)!=EOF){
+        if(x==0&&y==0)
+            break;
+        else
+            oj2012(x,y);
+    }
+
+    return 0;
+}
+void oj2012(int x,int y){
+    int z,n,i;//z=n^2+n+41;i作为计数器
+    if(-39<=x&&x<y&&y<=50)//continue
+        n=x;
+    for(i=0;n<=y;n++){
+        z=n*n+n+41;
+        if(issushu(z))
+            i++;
+        else{
+            printf("Sorry\n");
+            return;
+        }
+    }
+    if (i==y-x+1)printf("OK\n");
+};
+bool issushu(int x){
+    int k;
+    int i;
+    k=(int) sqrt((double)x);
+    for (i = 2; i <= k ; ++i){
+        if(x%i==0)break;
+    }
+    if(i>k)return true;//printf("Ok\n");//is 素数
+    else return false;//printf("Sorry\n");
+};
+
+//笨方法
+//2012
+/*
+int x,y;
+while(scanf("%d %d\n",&x,&y)!=EOF){
+    if(x==0&y==0)
+        break;
+    if(-39<=x&&x<y&&y<=50){
+        int z,n,i,k,j;//z=n^2+n+41;i作为计数器
+        n=x;i=0;
+        //开始判断是否所有都是素数
+        for(;n<=y;n++){
+            z=n*n+n+41;
+            for (j= 2; j <= z/2; ++j) {
+                if (z%j==0)
+                    break;
+            }
+            if (j>z/2)i++;
+        }
+        if (i==y-x+1)
+            printf("OK\n");
+        else
+            printf("Sorry\n");
+    }
+}*/
