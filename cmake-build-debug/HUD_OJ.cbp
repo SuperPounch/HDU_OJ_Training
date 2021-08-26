@@ -78,18 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/OJ2012.cpp">
-			<Option target="HUD_OJ"/>
-		</Unit>
-		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/OJ2012.h">
-			<Option target="HUD_OJ"/>
-		</Unit>
-		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/OJ2013.cpp">
-			<Option target="HUD_OJ"/>
-		</Unit>
-		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/OJ2013.h">
-			<Option target="HUD_OJ"/>
-		</Unit>
 		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/main.cpp">
 			<Option target="HUD_OJ"/>
 		</Unit>

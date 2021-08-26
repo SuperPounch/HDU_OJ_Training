@@ -8,8 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/lx/CLionProjects/HUD_OJ/OJ2012.cpp" "/Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles/HUD_OJ.dir/OJ2012.cpp.o"
-  "/Users/lx/CLionProjects/HUD_OJ/OJ2013.cpp" "/Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles/HUD_OJ.dir/OJ2013.cpp.o"
   "/Users/lx/CLionProjects/HUD_OJ/main.cpp" "/Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles/HUD_OJ.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

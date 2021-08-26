@@ -129,54 +129,6 @@ HUD_OJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/build
 .PHONY : HUD_OJ/fast
 
-OJ2012.o: OJ2012.cpp.o
-.PHONY : OJ2012.o
-
-# target to build an object file
-OJ2012.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/OJ2012.cpp.o
-.PHONY : OJ2012.cpp.o
-
-OJ2012.i: OJ2012.cpp.i
-.PHONY : OJ2012.i
-
-# target to preprocess a source file
-OJ2012.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/OJ2012.cpp.i
-.PHONY : OJ2012.cpp.i
-
-OJ2012.s: OJ2012.cpp.s
-.PHONY : OJ2012.s
-
-# target to generate assembly for a file
-OJ2012.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/OJ2012.cpp.s
-.PHONY : OJ2012.cpp.s
-
-OJ2013.o: OJ2013.cpp.o
-.PHONY : OJ2013.o
-
-# target to build an object file
-OJ2013.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/OJ2013.cpp.o
-.PHONY : OJ2013.cpp.o
-
-OJ2013.i: OJ2013.cpp.i
-.PHONY : OJ2013.i
-
-# target to preprocess a source file
-OJ2013.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/OJ2013.cpp.i
-.PHONY : OJ2013.cpp.i
-
-OJ2013.s: OJ2013.cpp.s
-.PHONY : OJ2013.s
-
-# target to generate assembly for a file
-OJ2013.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/OJ2013.cpp.s
-.PHONY : OJ2013.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -210,12 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HUD_OJ"
-	@echo "... OJ2012.o"
-	@echo "... OJ2012.i"
-	@echo "... OJ2012.s"
-	@echo "... OJ2013.o"
-	@echo "... OJ2013.i"
-	@echo "... OJ2013.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

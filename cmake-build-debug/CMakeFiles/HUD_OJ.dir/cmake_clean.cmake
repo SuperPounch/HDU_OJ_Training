@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HUD_OJ.dir/OJ2012.cpp.o"
-  "CMakeFiles/HUD_OJ.dir/OJ2013.cpp.o"
   "CMakeFiles/HUD_OJ.dir/main.cpp.o"
   "HUD_OJ"
   "HUD_OJ.pdb"

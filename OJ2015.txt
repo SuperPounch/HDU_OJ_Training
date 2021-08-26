@@ -1,0 +1,18 @@
+#include <iostream>
+int main() {
+    int i, n, m, b, c;
+//n是长度，m是每组个数,从2开始的偶数
+    while (scanf("%d%d", &n, &m) != EOF)
+    {
+        b = 2;
+        c = 0;
+        for (i = 0 ; i < n / m ; i++)
+        {
+            printf(c++ ? " %d" : "%d", b + m - 1);//每组的平均数=每组第一个数b+加上m-1
+            b += m * 2;//跳到下一组第一个数
+        }
+        printf(n % m ? " %d\n" : "\n", b + n % m - 1);//前真，后0假
+    }
+
+    return 0;
+}

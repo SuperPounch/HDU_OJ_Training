@@ -3,4 +3,4 @@ project(HUD_OJ)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(HUD_OJ main.cpp OJ2012.cpp OJ2012.h OJ2013.cpp OJ2013.h)
+add_executable(HUD_OJ main.cpp)
