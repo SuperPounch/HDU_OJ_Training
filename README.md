@@ -7,4 +7,5 @@
 
 ---
 new a Issues can build a green brick.
-
+直接在github页面上修改的也算是一个新的contribution！
+Nice！
