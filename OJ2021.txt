@@ -1,0 +1,30 @@
+#include "stdio.h"
+
+int main(void) {
+    int n;//teacher number
+    int pay;//teacher pay check
+    int sum;//record the numbers 0f bills
+    int i;//assistant element
+    while(scanf("%d",&n),n){
+        sum = 0;
+        for (i = 0 ; i < n ; i++)
+        {
+            scanf("%d", &pay);
+            sum += pay / 100;//100的张数
+            pay %= 100;//剩下
+            sum += pay / 50;//50的张数
+            pay %= 50;//剩下
+            sum += pay / 10;//10的张数
+            pay %= 10;//剩下
+            sum += pay / 5;//5的张数
+            pay %= 5;//剩下
+            sum += pay / 2;//2的张数
+            pay %= 2;//余数就是1的张数
+            sum += pay;//总和得到一个老师，后面继续累加
+        }
+        printf("%d\n", sum);
+    }
+
+
+
+}

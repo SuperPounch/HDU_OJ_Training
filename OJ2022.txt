@@ -24,7 +24,7 @@ int main(void)
                 }
             }
         }
-        printf("%d %d %.f\n", x + 1, y + 1, a);
+        printf("%d %d %.f\n", x + 1, y + 1, a);//%.0f也可以，所以32位整数的范围表示该是什么呢？？？？？
     }
 
     return 0;

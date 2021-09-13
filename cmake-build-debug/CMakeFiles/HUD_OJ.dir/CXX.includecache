@@ -7,8 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/lx/CLionProjects/HUD_OJ/main.cpp
-ctype.h
+math.h
 -
 stdio.h
+-
+stdlib.h
 -
 
