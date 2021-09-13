@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/contribution.cpp">
+			<Option target="HUD_OJ"/>
+		</Unit>
+		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/contribution.h">
+			<Option target="HUD_OJ"/>
+		</Unit>
 		<Unit filename="/Users/lx/CLionProjects/HUD_OJ/main.cpp">
 			<Option target="HUD_OJ"/>
 		</Unit>

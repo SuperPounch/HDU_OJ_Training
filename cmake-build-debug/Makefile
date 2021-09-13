@@ -129,6 +129,30 @@ HUD_OJ/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/build
 .PHONY : HUD_OJ/fast
 
+contribution.o: contribution.cpp.o
+.PHONY : contribution.o
+
+# target to build an object file
+contribution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/contribution.cpp.o
+.PHONY : contribution.cpp.o
+
+contribution.i: contribution.cpp.i
+.PHONY : contribution.i
+
+# target to preprocess a source file
+contribution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/contribution.cpp.i
+.PHONY : contribution.cpp.i
+
+contribution.s: contribution.cpp.s
+.PHONY : contribution.s
+
+# target to generate assembly for a file
+contribution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/contribution.cpp.s
+.PHONY : contribution.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HUD_OJ"
+	@echo "... contribution.o"
+	@echo "... contribution.i"
+	@echo "... contribution.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
