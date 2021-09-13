@@ -1,0 +1,19 @@
+#include <ctype.h>
+#include <stdio.h>
+int main()
+{
+    int n, d;//d记录一个字符串里包含的数字
+    char c;
+
+    scanf("%d%*c", &n);//n个字符串 %*C读取一个字符但不赋值给变量，类似跳过
+    while (n--)
+    {
+        for (d = 0 ; (c = getchar()) != '\n' ;)//getchar获取标准输入的一个字符
+        {
+            if (isdigit(c)) d++;//检查所传字符是否是十进制数字
+        }
+        printf("%d\n", d);
+    }
+
+    return 0;
+}
