@@ -81,12 +81,12 @@ clean: CMakeFiles/HUD_OJ.dir/clean
 CMakeFiles/HUD_OJ.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HUD_OJ.dir/build.make CMakeFiles/HUD_OJ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target HUD_OJ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target HUD_OJ"
 .PHONY : CMakeFiles/HUD_OJ.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HUD_OJ.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HUD_OJ.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lx/CLionProjects/HUD_OJ/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/HUD_OJ.dir/rule
