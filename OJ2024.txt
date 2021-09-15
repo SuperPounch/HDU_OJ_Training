@@ -1,0 +1,30 @@
+#include <ctype.h>
+#include <stdio.h>
+
+//C语言合法标识符 要求：必须以字母或者下划线开头
+//isalpha(const char *str)检查所传字符是否为字母
+//isalnum检查所传字符是否是字母和数字
+/*char *gets(char *str) 从标准输入 stdin 读取一行，并把它存储在 str 所指向的字符串中。
+当读取到换行符时，或者到达文件末尾时，它会停止，具体视情况而定。*/
+//int puts(const char *str)把一个字符串写入到标准输出stdout，直到空字符（但不包括），换行符会被追加到输出中
+
+int main(void) {
+    int n, d, i;
+    char sym[64];
+    scanf("%d%*c", &n);
+    while (n--) {
+        gets(sym);//读取一个字符串
+        if (sym[0] != '_' && !isalpha(sym[0])) {//判断不以_或字母为开头的，输出NO
+            puts("no");
+            continue;//跳下一个循环判断
+        }
+        for (d = i = 1; sym[i]; i++) {
+            if (!isalnum(sym[i]) && sym[i] != '_') {//判断既不是字母、数字，也不是下划线的字符，通过d来输出NO
+                d = 0;
+                break;
+            }
+        }
+        puts(d ? "yes" : "no");
+    }
+    return 0;
+}
